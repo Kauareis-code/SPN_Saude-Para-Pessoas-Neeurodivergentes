@@ -1,0 +1,17 @@
+/* Esta primeira parte e pra ajustar a distancia da logo da margem */
+.navbar-brand img {
+    margin-top: 10px; /* Margem superior */
+    margin-bottom: 5px; /* Margem inferior */
+    margin-left: 45px; /* Margem esquerda */
+    margin-right: 10px; /* Margem direita */
+}
+
+.container {
+    width: 100%; /* Largura do contêiner, ajustável conforme necessário */
+}
+
+.centered-div {
+    width: 50%; /* Largura da div, ajustável conforme necessário */
+
+    text-align: center; /* Opcional: centraliza o texto dentro da div */
+}
