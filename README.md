@@ -1,6 +1,7 @@
 <img src="https://github.com/Kauareis-code/imags/blob/main/baner%20spn.png">
 
 
+<img src="https://github.com/Kauareis-code/imags/blob/main/icon%20projeto.png" alt="Ícone de Disquete" width="16" height="16"> Salvar Projeto
 
 <h1><i class="fa-solid fa-floppy-disk" style="font-size:16px;"></i>Visão Geral do Projeto: Saúde para Pessoas Neurodivergentes</h1>
 
