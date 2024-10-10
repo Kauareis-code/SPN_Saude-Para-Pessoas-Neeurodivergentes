@@ -2,12 +2,12 @@
 <br><br>
 <h1>
   <img src="https://github.com/user-attachments/assets/fa682865-3715-4549-8cf2-e168e0164aa5">
-  &nbsp;&nbsp;&nbsp;Visão Geral do Projeto: Saúde para Pessoas Neurodivergentes
+  &nbsp;&nbsp;&nbsp;Visão Geral do Projeto: SPN
 </h1>
 
 
 
-<p>O projeto <strong>Saúde para Pessoas Neurodivergentes</strong> tem como foco o desenvolvimento de soluções inovadoras que <strong>facilitam o cuidado com a saúde</strong> de pessoas neurodivergentes. Desenvolvido por estudantes da UDF, o objetivo é promover a inclusão, bem-estar e autonomia, melhorando a comunicação e o acesso a informações essenciais.</p>
+<p>O projeto <strong>SPN (Saúde para Pessoas Neurodivergentes)</strong> tem como foco o desenvolvimento de soluções inovadoras que <strong>facilitam o cuidado com a saúde</strong> de pessoas neurodivergentes. Desenvolvido por estudantes da UDF, o objetivo é promover a inclusão, bem-estar e autonomia, melhorando a comunicação e o acesso a informações essenciais.</p>
 
 <p>Nosso objetivo é criar uma plataforma acessível que combine <strong>ferramentas práticas</strong> e <strong>recursos de suporte</strong>, oferecendo uma experiência que apoie a autonomia dos usuários e melhore sua qualidade de vida.</p>
 
