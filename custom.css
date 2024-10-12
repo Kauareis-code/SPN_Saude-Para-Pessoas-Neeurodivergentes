@@ -1,0 +1,18 @@
+/* Cor personalizada para a navbar */
+.navbar.custom-navbar {
+    background-color: #516c74 !important; /* Verde personalizado */
+  }
+  
+  .navbar.custom-navbar .nav-link,
+  .navbar.custom-navbar .navbar-brand {
+    color: #ffffff !important; /* Cor do texto branco */
+  }
+  
+  .navbar.custom-navbar .nav-link:hover {
+    color: #ddd!important; /* Cor do texto ao passar o mouse */
+  }
+  
+  /* alteração nos componentes da navbar*/
+  .navbar .nav-item:hover {
+    color: #010304 !important; /* Altere para a cor desejada */
+  }
