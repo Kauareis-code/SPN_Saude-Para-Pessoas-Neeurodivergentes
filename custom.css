@@ -1,3 +1,5 @@
+/*-------------------------------------------------FONTE DO SITE------------------------------------------------------------------*/
+
 /* Aplicando Comfortaa a todo o site */
 body {
   font-family: 'Comfortaa', sans-serif;
@@ -9,9 +11,8 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
   font-family: 'Comfortaa', sans-serif;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------NAVBAR INTENS------------------------------------------------------------------*/
 
-/* Configuração da navbar */
 .nav-item {
   margin-right: 45xpx; /* Adiciona 20px de espaço à direita de cada item */
 }
@@ -28,10 +29,8 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
   color: #1a237e; /* Cor para o item ativo */
 }
 
+/*-------------------------------------------------BOTÃO DA NAVBAR------------------------------------------------------------------*/
 
-/*--------------------------------------------------------------------------------------------------------------------*/
-
-/* Estilos do botão da NavBar */
 .button-navbar {
   position: relative; /* Permite posicionar itens internos */
   overflow: hidden; /* Esconde conteúdo que sai do botão */
@@ -97,13 +96,11 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
   transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1); /* Anima as mudanças do texto */
 }
 
+/*-------------------------------------------------FUNDO DO SITE------------------------------------------------------------------*/
 
-/*--------------------------------------------------------------------------------------------------------------------*/
-
-/* Imagem/Video de fundo para o contêiner que envolve a navbar e a seção Bem-vindo */
 .background-container {
   position: relative; /* Posiciona o conteúdo no container */
-  height: 100vh; /* Altura total da tela */
+  height: 116vh; /* Altura total da tela */
   overflow: hidden; /* Esconde conteúdo que sai do container */
 }
 
@@ -117,14 +114,14 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
   z-index: -1; /* Fica atrás de outros elementos */
 }
 
+
 /* Estilo da navbar */
 .navbar.custom-navbar {
   background: transparent !important; /* Navbar fica transparente */
 }
 
-/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------SEÇÃO BEM VINDO------------------------------------------------------------------*/
 
-/* Seção Bem-vindo */
 #bem-vindo {
   min-height: 60vh; /* Altura mínima da seção */
   display: flex; /* Usa flexbox para layout */
@@ -136,16 +133,19 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
 /* Estilo para o h1 */
 #bem-vindo h1 {
   font-size: 3.5rem; /* Tamanho da fonte do título */
+  color: #1a237e;/* Cor do texto */
+  font-weight: bold;
 }
 
 /* Estilo para o parágrafo */
 #bem-vindo p {
-  font-size: 1.0rem; /* Tamanho da fonte do parágrafo */
+  font-size: 1.1rem; /* Tamanho da fonte do parágrafo */
+  color: #1a237e; /* Cor do texto */
+  font-weight: bold;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------SEÇÃO SOBRE NÓS------------------------------------------------------------------*/
 
-/* Seção Sobre nos */
 #sobre-nos {
   text-align: center; /* Centraliza o texto */
   color: white; /* Cor da fonte branca */
@@ -154,12 +154,119 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
 
 #sobre-nos h2 {
   margin-bottom: 20px; /* Espaçamento abaixo do título */
-  font-size: 24px; /* Tamanho do título */
+  font-size: 32px; /* Tamanho do título */
 }
 
 #sobre-nos p {
-  font-size: 14px; /* Ajuste o tamanho conforme necessário para o texto */
+  font-size: 15px; /* Ajuste o tamanho conforme necessário para o texto */
   line-height: 1.8; /* Altura da linha para melhor legibilidade */
   max-width: 900px; /* Define uma largura máxima para os parágrafos */
   margin: 0 auto; /* Centraliza os parágrafos em relação ao container */
+}
+
+/*-------------------------------------------LOCAL ACOLHEDOR PARTE 1 / CARDS-----------------------------------------------------------*/
+
+/* Estilos para a seção de cards de ajuda */
+#local-acolhedor {
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  margin: 20px auto; /* Centraliza a seção com margem superior e inferior */
+  max-width: 800px; /* Limita a largura máxima da seção */
+}
+
+#local-acolhedor h2 {
+  font-size: 32px; /* Tamanho da fonte do título */
+  color: #0d124d; /* Cor do texto do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  text-align: center; /* Centraliza o título */
+}
+
+#local-acolhedor p {
+  font-size: 15px; /* Tamanho da fonte do parágrafo */
+  color: #0d124d; /* Cor do texto do parágrafo */
+  line-height: 1.8; /* Aumenta o espaçamento entre linhas */
+  text-align: center; /* Centraliza o texto do parágrafo */
+  margin: 0 20px; /* Espaçamento lateral */
+}
+
+#local-acolhedor h5 {
+  font-size: 13.5px; /* Tamanho da fonte do título */
+  color: #ffffff; /* Cor do texto do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  text-align: center; /* Centraliza o título */
+}
+
+.icon-spacing {
+  margin-left: 5px; /* Ajuste o valor conforme necessário */
+}
+
+
+/* Estilos para o contêiner dos cards */
+.card-container {
+  display: flex; /* Usando Flexbox */
+  justify-content: space-between; /* Espaço igual entre os cards */
+  flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte se não houver espaço suficiente */
+  margin-top: 20px; /* Espaçamento acima dos cards */
+  margin-top: 100px; /* Aumenta o espaço acima dos cards */
+
+}
+
+/* Estilos adicionais para os cards */
+.custom-card {
+  background-color: #001f5b !important;
+  border-radius: 25px !important;
+  box-shadow: 0 4px 8px #001e5b25;
+  transition: transform 0.2s;
+  margin: 10px; /* Espaçamento entre os cards */
+  flex: 1 0 30%; /* Permite que os cards se ajustem e ocupem pelo menos 30% da largura do contêiner */
+  max-width: 11rem; /* Limita a largura máxima do card */
+  height: 24rem; /* Altura do card */
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+.custom-card .card-title {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.custom-img {
+  width: 70% !important;
+  border-radius: 20px !important;
+  height: auto;
+  margin: 20px auto 0;
+}
+
+.custom-card .btn {
+  background-color: #ffffff;
+  color: #0d124d;
+  border: none;
+  border-radius: 20px;
+  padding: 5px px; /* Aumente os valores aqui */
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  margin-top: 30px; /* Ajusta o espaçamento do botão */
+  display: flex; /* Ativa o Flexbox */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  text-decoration: none; /* Remove o sublinhado do texto do link */
+}
+
+.custom-card .btn:hover {
+  background-color: #3f51b5;
+  cursor: pointer;
+}
+
+.custom-card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-container {
+  margin-bottom: -4px; /* Ajuste negativo para aproximar as seções */
 }
