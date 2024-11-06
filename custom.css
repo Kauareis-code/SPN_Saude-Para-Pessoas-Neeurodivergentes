@@ -100,7 +100,7 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
 
 .background-container {
   position: relative; /* Posiciona o conteúdo no container */
-  height: 116vh; /* Altura total da tela */
+  height: 118vh; /* Altura total da tela */
   overflow: hidden; /* Esconde conteúdo que sai do container */
 }
 
@@ -144,62 +144,141 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
   font-weight: bold;
 }
 
-/*-------------------------------------------------SEÇÃO SOBRE NÓS------------------------------------------------------------------*/
+/*---------------------------------------------PRIMEIRA SEÇÃO SOBRE NÓS--------------------------------------------------------------*/
 
-#sobre-nos {
+#primeiro-sobre-nos {
   text-align: center; /* Centraliza o texto */
   color: white; /* Cor da fonte branca */
   padding: 20px; /* Espaçamento interno */
 }
 
-#sobre-nos h2 {
+#primeiro-sobre-nos h2 {
   margin-bottom: 20px; /* Espaçamento abaixo do título */
   font-size: 32px; /* Tamanho do título */
 }
 
-#sobre-nos p {
+#primeiro-sobre-nos p {
   font-size: 15px; /* Ajuste o tamanho conforme necessário para o texto */
   line-height: 1.8; /* Altura da linha para melhor legibilidade */
   max-width: 900px; /* Define uma largura máxima para os parágrafos */
   margin: 0 auto; /* Centraliza os parágrafos em relação ao container */
 }
 
+.background-container {
+  position: relative; /* Define o contêiner de referência */
+}
+
+.primeiro-titulo-direita {
+  position: absolute !important;
+  top: 360px !important;       /* Ajuste conforme necessário */
+  right: 185px !important;     /* Ajuste conforme necessário */
+  text-align: right !important;
+}
+
+.primeiro-texto-direita {
+  position: absolute !important;
+  top: 420px !important;      /* Ajuste conforme necessário */
+  right: 185px !important;     /* Ajuste conforme necessário */
+  max-width: 40% !important;  /* Limite a largura do texto, se desejar */
+  text-align: right !important;
+}
+
+/*---------------------------------------------SEGUNDA SEÇÃO SOBRE NÓS--------------------------------------------------------------*/
+
+#segundo-sobre-nos {
+  text-align: center; /* Centraliza o texto */
+  color: white; /* Cor da fonte branca */
+  padding: 20px; /* Espaçamento interno */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;  /* Coloca o título acima dos itens */
+  align-items: center;     /* Centraliza o título e os itens */
+  text-align: center;
+  color: white;
+}
+
+.container h2 {
+  margin-bottom: 40px !important;     /* Espaçamento entre o título e os itens */
+}
+
+.itens-container {
+  display: flex;
+  gap: 60px;               /* Espaçamento entre os itens */
+}
+
+.item {
+  display: flex;
+  align-items: center;     /* Alinha o ícone e o texto na vertical */
+  gap: 10px !important;               /* Espaçamento entre o ícone e o texto */
+  text-align: left;
+}
+
+.item img {
+  width: 70px;             /* Tamanho do ícone */
+  height: 70px;
+  border-radius: 25%;         /* Arredonda a imagem para que fique em formato de círculo */
+
+}
+
+.item p {
+  margin: 0;
+}
+
+.segundo-titulo-esquerda {
+  position: absolute !important;
+  top: 350px !important;       /* Ajuste conforme necessário */
+  left: 185px !important;      /* Ajuste conforme necessário */
+  text-align: left !important; /* Mudar para left para alinhar à esquerda */
+}
+
+.segundo-texto-esquerda {
+  position: absolute !important;
+  top: 410px !important;       /* Ajuste conforme necessário */
+  left: 185px !important;      /* Ajuste conforme necessário */
+  max-width: 60% !important;   /* Limite a largura do texto, se desejar */
+  text-align: left !important;  /* Mudar para left para alinhar à esquerda */
+}
+
+
 /*-------------------------------------------LOCAL ACOLHEDOR PARTE 1 / CARDS-----------------------------------------------------------*/
 
 /* Estilos para a seção de cards de ajuda */
 #local-acolhedor {
-  padding: 20px; /* Espaçamento interno */
-  border-radius: 8px; /* Bordas arredondadas */
+  padding: 1px; /* Espaçamento interno */
   margin: 20px auto; /* Centraliza a seção com margem superior e inferior */
   max-width: 800px; /* Limita a largura máxima da seção */
 }
 
 #local-acolhedor h2 {
   font-size: 32px; /* Tamanho da fonte do título */
-  color: #0d124d; /* Cor do texto do título */
-  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  color: #1a237e; /* Cor do texto do título */
+  margin-bottom: 30px; /* Espaçamento abaixo do título */
   text-align: center; /* Centraliza o título */
 }
 
 #local-acolhedor p {
-  font-size: 15px; /* Tamanho da fonte do parágrafo */
-  color: #0d124d; /* Cor do texto do parágrafo */
-  line-height: 1.8; /* Aumenta o espaçamento entre linhas */
+  font-size: 16px; /* Tamanho da fonte do parágrafo */
+  color: #1a237e; /* Cor do texto do parágrafo */
+  line-height: 1.5; /* Aumenta o espaçamento entre linhas */
   text-align: center; /* Centraliza o texto do parágrafo */
   margin: 0 20px; /* Espaçamento lateral */
 }
 
 #local-acolhedor h5 {
-  font-size: 13.5px; /* Tamanho da fonte do título */
+  font-size: 16px; /* Tamanho da fonte do título */
   color: #ffffff; /* Cor do texto do título */
-  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  margin-bottom: 30px; /* Espaçamento abaixo do título */
   text-align: center; /* Centraliza o título */
 }
 
-.icon-spacing {
-  margin-left: 5px; /* Ajuste o valor conforme necessário */
+/* Estilos para o container */
+.container-center {
+  max-width: 1200px; /* Largura máxima do container */
+  margin: 0 auto; /* Centraliza o container */
+  padding: 20px; /* Espaçamento interno */
 }
-
 
 /* Estilos para o contêiner dos cards */
 .card-container {
@@ -207,66 +286,57 @@ body, p, a, button, h1, h2, h3, h4, h5, h6, span, div, input, nav, ul, li {
   justify-content: space-between; /* Espaço igual entre os cards */
   flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte se não houver espaço suficiente */
   margin-top: 20px; /* Espaçamento acima dos cards */
-  margin-top: 100px; /* Aumenta o espaço acima dos cards */
-
 }
 
 /* Estilos adicionais para os cards */
 .custom-card {
-  background-color: #001f5b !important;
-  border-radius: 25px !important;
-  box-shadow: 0 4px 8px #001e5b25;
-  transition: transform 0.2s;
   margin: 10px; /* Espaçamento entre os cards */
   flex: 1 0 30%; /* Permite que os cards se ajustem e ocupem pelo menos 30% da largura do contêiner */
   max-width: 11rem; /* Limita a largura máxima do card */
-  height: 24rem; /* Altura do card */
-}
-
-.custom-card:hover {
-  transform: scale(1.05);
-}
-
-.custom-card .card-title {
-  color: #ffffff;
-  font-weight: bold;
-  text-align: center;
+  height: 25rem; /* Altura do card */
+  background-color: #303f9f !important; /* Cor de fundo do card (use a cor desejada) */
+  padding: 15px; /* Preenchimento interno do card */
+  border-radius: 8px; /* Borda arredondada para o card */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade ao card */
+  border-radius: 40px !important; /* Arredonda as bordas da imagem (deve corresponder ao valor do card) */
 }
 
 .custom-img {
-  width: 70% !important;
-  border-radius: 20px !important;
-  height: auto;
-  margin: 20px auto 0;
+  height: 150px; /* Altura da imagem para manter a consistência */
+  object-fit: cover; /* Cobre o espaço do card, mantendo a proporção */
+  border-radius: 40px !important; /* Arredonda as bordas da imagem (deve corresponder ao valor do card) */
+
 }
 
-.custom-card .btn {
-  background-color: #ffffff;
-  color: #0d124d;
-  border: none;
-  border-radius: 20px;
-  padding: 5px px; /* Aumente os valores aqui */
-  font-size: 1rem;
-  transition: background-color 0.3s;
-  margin-top: 30px; /* Ajusta o espaçamento do botão */
-  display: flex; /* Ativa o Flexbox */
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
-  text-decoration: none; /* Remove o sublinhado do texto do link */
-}
-
-.custom-card .btn:hover {
-  background-color: #3f51b5;
-  cursor: pointer;
-}
-
-.custom-card .card-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
+/* Contêiner principal para a seção de fundo */
 .background-container {
-  margin-bottom: -4px; /* Ajuste negativo para aproximar as seções */
+  position: relative; /* Define a posição relativa para permitir o posicionamento absoluto dos elementos filhos */
+}
+
+/* Contêiner central para os elementos que estão acima do vídeo */
+.container-center {
+  position: relative; /* Define a posição relativa para que os elementos internos possam ser posicionados em relação a ele */
+  z-index: 1; /* Coloca este contêiner acima do vídeo na pilha de camadas */
+}
+
+/* Estilo personalizado para os cartões */
+.custom-card {
+  margin: 35px; /* Adiciona uma margem ao redor de cada cartão */
+}
+
+.custom-button {
+  background-color: #ffffff !important; /* Cor de fundo do botão */
+  color:  #303f9f !important; /* Cor do texto e do ícone (use a cor desejada) */
+  border: none; /* Remove a borda padrão */
+  border-radius: 8px; /* Arredonda as bordas do botão */
+  padding: 10px 20px; /* Preenchimento interno (topo e fundo, esquerda e direita) */
+  text-align: center; /* Centraliza o texto */
+  text-decoration: none; /* Remove sublinhado do texto */
+  display: inline-block; /* Permite que o botão se comporte como um bloco inline */
+  transition: none; /* Remove a transição suave para efeitos */
+}
+
+/* Estilos adicionais para o ícone, se necessário */
+.custom-button .icon-spacing {
+  color: inherit; /* Garante que a cor do ícone herde a cor do botão */
 }
